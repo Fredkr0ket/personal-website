@@ -4,6 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontSize: {
+      title: '60px',
+      's-title': '25px',
+      'ss-title': '21px',
+      desc: '18px',
+    },
     extend: {},
     // margin: {
     //   '12': '12.5%',
@@ -26,7 +32,8 @@ module.exports = {
       'gray-2': '#333333',
       'gray-3': '#d6d6d6',
       'white': '#ffffff',
-      'orange': "#ea5a00"
+      'orange-1': '#d15000',
+      'orange-2': "#ea5a00",
     },
     screens: {
 			xl: { max: "1279px" },
