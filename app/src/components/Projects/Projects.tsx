@@ -6,18 +6,23 @@ const Projects = () => {
   const items = projects.projects.map(item => {
     return (
       <Projectitem
+      id={item.id}
       title={item.title}
       description={item.description}
       img={item.img}
       imgAlt={item.imgAlt}
       tools={item.tools}
-      toolAlt={item.tools} 
       ></Projectitem>
     )
   })
   return (
-    <div key="1">
-      {items}
+    <div className="flex flex-col place-items-center mb-[30px]">
+      <h1 className="text-orange-2 text-title mb-[25px]">
+      Projects
+      </h1>
+      <div key="1" className="">
+        {items}
+      </div>
     </div>
   )
 }

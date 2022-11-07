@@ -28,6 +28,7 @@ module.exports = {
     //   '75': '75%',
     // },
     colors: {
+      'transparent': 'transparent',
       'gray-1': '#262626',
       'gray-2': '#333333',
       'gray-3': '#d6d6d6',
@@ -45,6 +46,16 @@ module.exports = {
 			sm: { max: "639px" },
 			// => @media (max-width: 639px) { ... }
 		},
+    dropShadow: {
+      '3xl': '0 0 0.75rem rgba crimson',
+      '4xl': [
+          '0 35px 35px rgba(0, 0, 0, 0.25)',
+          '0 45px 65px rgba(0, 0, 0, 0.15)'
+      ]
+    },
+    boxShadow: {
+      '3xl': "120px 80px 40px 20px #d15000"
+    }
   },
   plugins: [],
 }
