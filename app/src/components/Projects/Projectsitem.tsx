@@ -23,7 +23,7 @@ const Projectitem = ({...props}: IProjects) => {
           <div className="flex flex-row max-h-[40px] mt-2">
             {props.tools?.map(tool => {
               return(
-                <img className="mr-4" src={"src/assets/" + tool} alt={tool}></img>
+                <img className="mr-4" src={"src/assets/" + tool} alt={tool} />
               )
             })}
           </div>

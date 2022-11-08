@@ -15,8 +15,7 @@ function App() {
         <Bio />
         <Projects />
         <Timeline />
-      </div>
-      <button onClick={() => setDarkToggle(!darkToggle)}>kaaaas</button>
+      </div>  
     </>
   )
 }

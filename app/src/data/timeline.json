@@ -2,23 +2,15 @@
   "timelineitems": [
     {
       "date": "Augustus 2021 - Juli 2022",
-      "title": "lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+      "title": "Jaar 1 softwaredeveloper - Friesepoort",
+      "description": "In het eerste jaar software developer niveau 4 bij Friesepoort Drachten heb ik veel geleerd over programmeren. Met die kennis heb ik een sterke basis kunnen leggen waar ik goed op verder kan bouwen.",
+      "knowledge": ["html.svg", "css.svg", "python.svg", "javascript.svg", "php.svg", "sql.png"]
     },
     {
-      "date": "Augustus 2021 - Juli 2022",
-      "title": "lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-    },
-    {
-      "date": "Augustus 2021 - Juli 2022",
-      "title": "lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-    },
-    {
-      "date": "Augustus 2021 - Juli 2022",
-      "title": "lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+      "date": "Augustus 2022 - Februari 2023",
+      "title": "Stagelopen bij Veranto",
+      "description": "Ik loop een half jaar stage bij het bedrijf Veranto, het bedrijf specialiseerd zich in het maken van Dashboards en Microservices",
+      "knowledge": ["typescript.svg", "react.svg", "git.png"]
     }
   ]
 }

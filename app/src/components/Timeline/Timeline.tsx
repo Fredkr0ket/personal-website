@@ -9,11 +9,12 @@ const Timeline = () => {
       date={item.date}
       title={item.title}
       description={item.description}
+      knowledge={item.knowledge}
       />
     )
   })
   return (
-    <div className="flex flex-col place-items-center mb-[30px]">
+    <div className="flex flex-col place-items-center">
       <h1 className="text-orange-1 text-title mb-[35px] ">
       Timeline
       </h1>
