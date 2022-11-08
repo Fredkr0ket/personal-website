@@ -16,7 +16,7 @@ const Projects = () => {
     )
   })
   return (
-    <div className="flex flex-col place-items-center mb-[30px]">
+    <div className={`flex flex-col place-items-center mb-[30px]`}  >
       <h1 className="text-orange-2 text-title mb-[25px]">
       Projects
       </h1>

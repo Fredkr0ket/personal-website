@@ -1,17 +1,12 @@
 import React from "react";
 
-export interface INavbar {
-  maxW?: number
-  h?: number
-}
 
-const Navbar = ({maxW, h}: INavbar) => {
+
+const Navbar = () => {
 
   return (
-    <div className={`max-w-[${maxW || "100%"}] h-24 flex flex-column items-stretch justify-between mb-4`}>
-      <button className=" ml-3bg-white">
-
-      </button>
+    <div className={`max-w-[100%] mt-10 flex flex-column items-stretch justify-between mb-4`}>
+      <div></div>
       <div className="flex flex-row self-center content-between gap-6 mr-5">
         <a href="https://www.linkedin.com/in/ferdo-van-balen-441879241/
         ">
