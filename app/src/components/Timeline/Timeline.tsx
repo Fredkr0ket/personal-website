@@ -16,7 +16,7 @@ const Timeline = () => {
   return (
     <div className="flex flex-col place-items-center">
       <h1 className="text-orange-1 text-title mb-[35px] ">
-      Timeline
+      Tijdlijn
       </h1>
       <ol className="relative border-l-2 w-[80%] self-center border-w-2 border-orange-1 ">
         {timeLineItems}
