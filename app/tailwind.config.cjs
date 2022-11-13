@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontSize: {
       title: '60px',
-      's-title': '25px',
+      's-title': '30px',
       'ss-title': '21px',
       desc: '18px',
     },
