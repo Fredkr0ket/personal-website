@@ -1,13 +1,13 @@
 {
-  "name": "personal-website",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Ferdo van Balen",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
