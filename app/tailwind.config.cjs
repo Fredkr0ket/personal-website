@@ -7,9 +7,13 @@ module.exports = {
   theme: {
     fontSize: {
       title: '60px',
+      'm-title': '48px',
       's-title': '30px',
       'ss-title': '21px',
+      'm-s-title': '20px',
+      'm-ss-title': '15px',
       desc: '18px',
+
     },
     extend: {},
     // margin: {
