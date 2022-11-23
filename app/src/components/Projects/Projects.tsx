@@ -16,8 +16,8 @@ const Projects = () => {
     )
   })
   return (
-    <div className={`flex flex-col place-items-center mb-[67px] sm:flex flex-col place-items-center mb-[40px] `}  >
-      <h2 className="text-orange-2 text-title mb-[25px] sm:text-m-title mb-[5px]">
+    <div className={`flex flex-col place-items-center mb-[67px] lg:flex flex-col place-items-center mb-[40px] `}  >
+      <h2 className="text-orange-2 text-title mb-[30px] lg:text-m-title lg:mb-[5px]">
       Projecten
       </h2>
       <div key="1" className="">
