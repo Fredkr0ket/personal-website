@@ -5,7 +5,7 @@ import timelineitems from '../../data/timeline.json'
 const Timeline = () => {
   const timeLineItems = timelineitems.timelineitems.map(item => {
     return(
-      <Timelineitem 
+      <Timelineitem
       date={item.date}
       title={item.title}
       description={item.description}
@@ -15,7 +15,7 @@ const Timeline = () => {
   })
   return (
     <div className="flex flex-col place-items-center sm:mt-[10px]">
-      <h2 className="text-orange-1 text-title mb-[25px] sm:text-m-title mb-[15px]">
+      <h2 className="text-orange-1 text-title mb-[25px] sm:text-m-title sm:mb-[15px]">
       Tijdlijn
       </h2>
       <ol className="relative border-l-2 w-[80%] self-center border-w-2 border-orange-1 sm:w-[90%]">

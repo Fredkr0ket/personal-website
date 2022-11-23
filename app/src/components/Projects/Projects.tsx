@@ -16,7 +16,7 @@ const Projects = () => {
     )
   })
   return (
-    <div className={`flex flex-col place-items-center mb-[67px] sm:flex flex-col place-items-center sm:mb-[40px] `}  >
+    <div className={`flex flex-col place-items-center mb-[67px] sm:flex flex-col place-items-center mb-[40px] `}  >
       <h2 className="text-orange-2 text-title mb-[25px] sm:text-m-title mb-[5px]">
       Projecten
       </h2>
