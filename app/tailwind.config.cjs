@@ -40,6 +40,7 @@ module.exports = {
       'white': '#ffffff',
       'orange-1': '#d15000',
       'orange-2': "#ea5a00",
+      'orange-1-t': 'rgba(234, 90, 0, 0.1)'
     },
     screens: {
 			xl: { max: "1279px" },
