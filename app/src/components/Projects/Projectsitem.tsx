@@ -8,46 +8,88 @@ export interface IProjects{
   img: string
   imgAlt: string
   tools: string[]
+  url?: string
 }
 
-const Projectitem = ({...props}: IProjects) => {
-  if (props.id % 2 == 0) {
-    return (
-      <div className="flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
-        <img className="max-h-[250px]" src={"src/assets/" + props.img} alt={props.imgAlt}></img>
-        <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
-          <h1 className="text-s-title text-orange-2 lg:text-center">{props.title}</h1>
-          <p className="text-desc text-gray-3 mb-2 lg:text-center">{props.description}</p>
-          <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
-          <div className="flex flex-row mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
-            {props.tools?.map(tool => {
-              return(
-                <img className="mr-4 max-h-[40px]" src={"src/assets/" + tool} alt={tool} />
-              )
-            })}
+
+const Projectitem = (props: IProjects) => {
+  const {id, title, description, img, imgAlt, tools, url} = props
+  if (!url) {
+    if (id % 2 == 0) {
+      return (
+        <a className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] pt-[20px] rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <img className="h-[200px] self-center align-center justify-self-center ml-[100px]" src={"src/assets/" + img} alt={imgAlt}></img>
+          <div className="flex flex-col self-end max-w-[64%] mr-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
+            <h1 className="text-s-title text-orange-2 lg:text-center">{title}</h1>
+            <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
+            <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
+            <div className="flex flex-row flex-wrap mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
+              {tools?.map(tool => {
+                return(
+                  <img className="mr-4 max-h-[40px] mt-[10px]" src={"src/assets/" + tool} alt={tool} />
+                )
+              })}
+            </div>
           </div>
-        </div>
-      </div>
-    )
-  }
-  else {
-    return (
-      <div className="flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
-        <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
-          <h2 className="text-s-title text-orange-2 lg:text-center">{props.title}</h2>
-          <p className="text-desc text-gray-3 mb-2 lg:text-center">{props.description}</p>
-          <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
-          <div className="flex flex-row mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
-            {props.tools?.map(tool => {
-              return(
-                <img className="mr-4 max-h-[40px]" src={"src/assets/" + tool} alt={tool}></img>
-              )
-            })}
+        </a>
+      )
+    } else {
+      return (
+        <a className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] rounded-[7px] pt-[20px] bg-gray-4 flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
+            <h2 className="text-s-title text-orange-2 lg:text-center">{title}</h2>
+            <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
+            <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
+            <div className="flex flex-row flex-wrap mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
+              {tools?.map(tool => {
+                return(
+                  <img className="mr-4 max-h-[40px] mt-[10px]" src={"src/assets/" + tool} alt={tool}></img>
+                )
+              })}
+            </div>
           </div>
-        </div>
-          <img className="max-h-[250px]" src={"src/assets/" + props.img} alt={props.imgAlt}></img>
-      </div>
-    )
+          <img className="h-[200px] self-center mr-[100px] " src={"src/assets/" + img} alt={imgAlt}></img>
+        </a>
+      )
+    }
+  } else {
+    if (id % 2 == 0) {
+      return (
+        <a href={url} className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] pt-[20px] rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <img className="h-[200px] self-center align-center justify-self-center" src={"src/assets/" + img} alt={imgAlt}></img>
+          <div className="flex flex-col self-end max-w-[64%] mr-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
+            <h1 className="text-s-title text-orange-2 lg:text-center">{title}</h1>
+            <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
+            <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
+            <div className="flex flex-row flex-wrap mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
+              {tools?.map(tool => {
+                return(
+                  <img className="mr-4 max-h-[40px] mt-[10px] ml-[100px]" src={"src/assets/" + tool} alt={tool} />
+                )
+              })}
+            </div>
+          </div>
+        </a>
+      )
+    } else {
+      return (
+        <a href={url} className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] rounded-[7px] pt-[20px] bg-gray-4 flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
+            <h2 className="text-s-title text-orange-2 lg:text-center">{title}</h2>
+            <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
+            <p className="text-ss-title text-orange-2 lg:text-center">Tools</p>
+            <div className="flex flex-row flex-wrap mt-2 lg:max-w-[90%] lg:mx-[5%] lg:justify-center">
+              {tools?.map(tool => {
+                return(
+                  <img className="mr-4 max-h-[40px] mt-[10px]" src={"src/assets/" + tool} alt={tool}></img>
+                )
+              })}
+            </div>
+          </div>
+          <img className="h-[200px] self-center mr-[100px] ml-auto" src={"src/assets/" + img} alt={imgAlt}></img>
+        </a>
+      )
+    }
   }
 }
 

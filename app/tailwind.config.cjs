@@ -37,12 +37,16 @@ module.exports = {
       'gray-1': '#262626',
       'gray-2': '#333333',
       'gray-3': '#d6d6d6',
+      'gray-4': '#282828',
+      'gray-5': '#272727',
       'white': '#ffffff',
       'orange-1': '#d15000',
       'orange-2': "#ea5a00",
-      'orange-1-t': 'rgba(234, 90, 0, 0.1)'
+      'orange-1-t': 'rgba(234, 90, 0, 0.1)',
+      'orange-1-md': 'rgba(234, 90, 0, 0.4)'
     },
     screens: {
+      max: { max: "4000px" },
 			xl: { max: "1279px" },
 			// => @media (max-width: 1279px) { ... }
 			lg: { max: "1023px" },

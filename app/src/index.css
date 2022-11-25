@@ -2,3 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection { background: rgba(234, 90, 0, 0.4) ; }

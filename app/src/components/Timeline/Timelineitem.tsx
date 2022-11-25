@@ -15,10 +15,10 @@ const Timelineitem = ({...props}: ITimelineiten) => {
       <h3 className="text-lg text-s-title text-orange-1">{props.title}</h3>
       <p className="mb-2 text-desc text-gray-3">{props.description}</p>
       <h3 className="text-lg text-ss-title text-orange-1">Opgedane kennis</h3>
-      <div className="flex flex-row mt-2 lg:max-w-[100%]">
+      <div className="flex flex-row lg:max-w-[100%] flex-wrap">
         {props.knowledge.map((i: string) => {
           return(
-            <img className="mr-4 max-h-[40px]" src={"/src/assets/" + i} alt={i} />
+            <img className="mr-4 max-h-[40px] mt-[10px]" src={"/src/assets/" + i} alt={i} />
           )
         })}
       </div>

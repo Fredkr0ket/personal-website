@@ -4,7 +4,7 @@ interface Props {
 
 const GithubButton = (props: Props) => {
   return (
-    <a href={props.url} className="hover:bg-orange-1-t ease-in-out duration-300 p-2 rounded-full">
+    <a href={props.url} target="_blank" className="hover:bg-orange-1-t ease-linear duration-300 p-2 rounded-full">
     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="#ea5a00">
       <g>
         <path fill="none" d="M0 0h24v24H0z"/>

@@ -4,9 +4,10 @@
       "id": 1,
       "title": "Portfolio website",
       "description": "Ik heb deze website geporgrameerd in TypeScript met het framework React. In plaats van de standaard 'create react app' heb ik gekozen voor 'create vite', waardoor in vergelijkin tot de standaard webpack bundler mijn website 10x sneller bundled." ,
-      "img": "raspberrypi.png",
+      "img": "react.svg",
       "imgAlt": "raspberrypi",
-      "tools": ["react.svg", "tailwind.svg", "vite.png", "typescript.svg", "nodejs.svg", "github.png", "git.png"]
+      "tools": ["react.svg", "tailwind.svg", "vite.png", "typescript.svg", "nodejs.svg", "github.png", "git.png"],
+      "url": "https://github.com/Fredkr0ket/personal-website"
     },
     {
       "id": 2,

@@ -12,6 +12,7 @@ const Projects = () => {
       img={item.img}
       imgAlt={item.imgAlt}
       tools={item.tools}
+      url={item.url}
       ></Projectitem>
     )
   })
