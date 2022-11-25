@@ -46,8 +46,9 @@ module.exports = {
       'orange-1-md': 'rgba(234, 90, 0, 0.4)'
     },
     screens: {
-      max: { max: "4000px" },
-			xl: { max: "1279px" },
+      max:{ min: "1024px" },
+      xxl:{ max: "1700px"},
+			xl: { max: "1500px" },
 			// => @media (max-width: 1279px) { ... }
 			lg: { max: "1023px" },
 			// => @media (max-width: 1023px) { ... }

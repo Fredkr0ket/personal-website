@@ -17,8 +17,8 @@ const Projectitem = (props: IProjects) => {
   if (!url) {
     if (id % 2 == 0) {
       return (
-        <a className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] pt-[20px] rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
-          <img className="h-[200px] self-center align-center justify-self-center ml-[100px]" src={"src/assets/" + img} alt={imgAlt}></img>
+        <a className="max:justify-between max:ease-linear max:duration-300 max:bg-gray-4 max:hover:bg-orange-1-t max:pb-[30px] max:pt-[20px] max:rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <img className="h-[200px] self-center  justify-self-center max:ml-[100px] xl:ml-[50px] xxl:ml-[70px] lg:ml-[0px]" src={"src/assets/" + img} alt={imgAlt}></img>
           <div className="flex flex-col self-end max-w-[64%] mr-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
             <h1 className="text-s-title text-orange-2 lg:text-center">{title}</h1>
             <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
@@ -35,7 +35,7 @@ const Projectitem = (props: IProjects) => {
       )
     } else {
       return (
-        <a className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] rounded-[7px] pt-[20px] bg-gray-4 flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+        <a className="max:justify-between max:ease-linear max:duration-300 max:bg-gray-4 max:hover:bg-orange-1-t max:pb-[30px] max:pt-[20px] max:rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
           <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
             <h2 className="text-s-title text-orange-2 lg:text-center">{title}</h2>
             <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
@@ -48,15 +48,15 @@ const Projectitem = (props: IProjects) => {
               })}
             </div>
           </div>
-          <img className="h-[200px] self-center mr-[100px] " src={"src/assets/" + img} alt={imgAlt}></img>
+          <img className="h-[200px] self-center max:mr-[100px] xl:mr-[50px] xxl:mr-[70px] lg:mr-[0px] " src={"src/assets/" + img} alt={imgAlt}></img>
         </a>
       )
     }
   } else {
     if (id % 2 == 0) {
       return (
-        <a href={url} className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] pt-[20px] rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
-          <img className="h-[200px] self-center align-center justify-self-center" src={"src/assets/" + img} alt={imgAlt}></img>
+        <a href={url} className="max:justify-between max:ease-linear max:duration-300 max:bg-gray-4 max:hover:bg-orange-1-t max:pb-[30px] max:pt-[20px] max:rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+          <img className="h-[200px] self-center align-center justify-self-center max:ml-[100px] xl:ml-[50px] xxl:ml-[70px] lg:ml-[0px]" src={"src/assets/" + img} alt={imgAlt}></img>
           <div className="flex flex-col self-end max-w-[64%] mr-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
             <h1 className="text-s-title text-orange-2 lg:text-center">{title}</h1>
             <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
@@ -73,7 +73,7 @@ const Projectitem = (props: IProjects) => {
       )
     } else {
       return (
-        <a href={url} className="justify-between ease-linear duration-300 bg-gray-4 hover:bg-orange-1-t pb-[30px] rounded-[7px] pt-[20px] bg-gray-4 flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
+        <a href={url} className="max:justify-between max:ease-linear max:duration-300 max:bg-gray-4 max:hover:bg-orange-1-t max:pb-[30px] max:pt-[20px] max:rounded-[7px] flex flex-row max-w-[100%] mb-12 lg:flex lg:flex-col lg:max-w-[100%] lg:mb-12 lg:mb-[10px]">
           <div className="flex flex-col self-end max-w-[64%] ml-[4%] lg:flex lg:flex-col lg:self-center lg:max-w-[90%] lg:mx-[5%]">
             <h2 className="text-s-title text-orange-2 lg:text-center">{title}</h2>
             <p className="text-desc text-gray-3 mb-2 lg:text-center">{description}</p>
@@ -86,7 +86,7 @@ const Projectitem = (props: IProjects) => {
               })}
             </div>
           </div>
-          <img className="h-[200px] self-center mr-[100px] ml-auto" src={"src/assets/" + img} alt={imgAlt}></img>
+          <img className="h-[200px] self-center max:mr-[100px] xl:mr-[50px] xxl:mr-[70px] lg:mr-[0px]" src={"src/assets/" + img} alt={imgAlt}></img>
         </a>
       )
     }
