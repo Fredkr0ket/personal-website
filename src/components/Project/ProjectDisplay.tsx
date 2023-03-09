@@ -34,7 +34,7 @@ const ProjectDisplay = () => {
         }
     })
     return (
-        <div className={styles.root}>
+        <div id="projects" className={styles.root}>
             <h1 className={styles.title}>Projecten<br/></h1>
             <div className={styles.projects}>
                 <div className={styles.projectGrid1}>
@@ -50,6 +50,8 @@ const ProjectDisplay = () => {
 
 const styles = {
     root: css`
+        scroll-padding-top: 20px;
+        margin-top: 100px;
         margin-bottom: auto;
         margin-left: 5%;
         width: 90%;

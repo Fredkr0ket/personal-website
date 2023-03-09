@@ -1,6 +1,7 @@
 import { css } from '@emotion/css'
 import React from 'react'
 import Bio from './components/Bio'
+import ScrollButton from './components/Buttons/ScrollButton'
 import Header from './components/Header'
 import ProjectDisplay from './components/Project/ProjectDisplay'
 
@@ -12,6 +13,7 @@ function App() {
       <div className={styles.fontPage}>
         <Bio />
       </div>
+      <ScrollButton target="projects" display="Projecten"/>
       <ProjectDisplay />
 
     </div>
@@ -22,6 +24,9 @@ export default App
 
 const styles = {
   root: css`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
     margin-left: 20%;
   `,
@@ -29,7 +34,7 @@ const styles = {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 160px);
     justify-content: center;
   `
 }
