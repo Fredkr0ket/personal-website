@@ -32,7 +32,8 @@ const styles = {
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        padding-top: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
 
     `,
     textBox: css`

@@ -9,21 +9,40 @@ type project = {
     image: string
 }
 const ProjectDisplay = () => {
-    const items = projectData.projectData.map(project => {
-        return (
-            <ProjectItems
-            title={project.title}
-            body={project.body}
-            tools={project.tools}
-            image={project.img}
-            />
-        )
+    const projects1 = projectData.projectData.map(project => {
+        if (project.type == 1) {
+            return (
+                <ProjectItems
+                title={project.title}
+                body={project.body}
+                tools={project.tools}
+                image={project.img}
+                />
+            )
+        }
+    })
+    const projects2 = projectData.projectData.map(project => {
+        if (project.type == 2) {
+            return (
+                <ProjectItems
+                title={project.title}
+                body={project.body}
+                tools={project.tools}
+                image={project.img}
+                />
+            )
+        }
     })
     return (
         <div className={styles.root}>
             <h1 className={styles.title}>Projecten<br/></h1>
-            <div className={styles.projectGrid}>
-                {items}
+            <div className={styles.projects}>
+                <div className={styles.projectGrid1}>
+                    {projects1}
+                </div>
+                <div className={styles.projectGrid2}>
+                    {projects2}
+                </div>
             </div>
         </div>
     )
@@ -31,6 +50,7 @@ const ProjectDisplay = () => {
 
 const styles = {
     root: css`
+        margin-bottom: auto;
         margin-left: 5%;
         width: 90%;
         max-width: 90%;
@@ -43,11 +63,22 @@ const styles = {
         padding-left: 5px;
         padding-bottom: 20px;
     `,
-    projectGrid: css`
+    projects: css`
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap
-    `
+        width:95%;
+        margin-left:2.5%;
+    `,
+    projectGrid1: css`
+        max-width:49%;
+        margin-right: 1%;
+
+    `,
+    projectGrid2: css`
+        max-width:49%;
+        margin-left: 1%;
+
+    `,
 }
 
 export default ProjectDisplay

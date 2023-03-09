@@ -23,6 +23,9 @@ const Header = () => {
 
 const styles = {
     root: css`
+        position: sticky;
+        top: 0;
+        margin-right: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

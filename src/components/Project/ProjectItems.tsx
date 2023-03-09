@@ -15,6 +15,7 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image}) => {
             <CardBody>
                 <Img
                     src={image}
+                    width="100%"
                  />
                  <CardHeader>{title}</CardHeader>
                  <p>{body}</p>
@@ -25,10 +26,7 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image}) => {
 
 const styles = {
     card: css`
-        width:47.5%;
-        max-width:47.5%;
-        margin-left: 2.5%;
-        margin-bottom: 2.5%;
+        margin-bottom: 2.5%
     `
 
 }
