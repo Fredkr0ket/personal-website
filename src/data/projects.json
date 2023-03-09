@@ -1,0 +1,28 @@
+{
+    "projectData" : [
+        {
+            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
+            "title": "This website",
+            "tools": ["React", "Typescript", "Chakra-ui"],
+            "body": "I build this website in React using TypeScript and the Chakra ui library"
+        },
+        {
+            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
+            "title": "This website",
+            "tools": ["React", "Typescript", "Chakra-ui"],
+            "body": "I build this website in React using TypeScript and the Chakra ui library"
+        },
+        {
+            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
+            "title": "This website",
+            "tools": ["React", "Typescript", "Chakra-ui"],
+            "body": "I build this website in React using TypeScript and the Chakra ui library"
+        },
+        {
+            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
+            "title": "This website",
+            "tools": ["React", "Typescript", "Chakra-ui"],
+            "body": "I build this website in React using TypeScript and the Chakra ui library"
+        }
+    ]
+}
