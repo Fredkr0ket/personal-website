@@ -33,8 +33,8 @@ const styles = {
   fontPage: css`
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 160px);
+    max-width: 100%;
+    height: calc(100vh - 190px);
     justify-content: center;
   `
 }

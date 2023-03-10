@@ -38,7 +38,7 @@ const styles = {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width:140px;
+        width:170px;
     `,
     title: css`
         font-family: major_mono_displayregular;

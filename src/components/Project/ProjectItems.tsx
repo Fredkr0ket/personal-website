@@ -1,4 +1,4 @@
-import { Card, CardBody, CardHeader, Img } from "@chakra-ui/react";
+import { Card, CardBody, CardHeader, Divider, Img } from "@chakra-ui/react";
 import { css } from "@emotion/css";
 import React from "react";
 
@@ -17,8 +17,10 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image}) => {
                     src={image}
                     width="100%"
                  />
-                 <CardHeader>{title}</CardHeader>
-                 <p>{body}</p>
+                 <CardHeader fontSize={30} fontFamily={"rubiklight"} fontWeight={"bold"} marginLeft={-5}>{title}</CardHeader>
+                <p className={styles.tools}>{tools}</p>
+                <Divider marginTop={2} marginBottom={3}/>
+                <p>{body}</p>
             </CardBody>
         </Card>
     )
@@ -27,6 +29,9 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image}) => {
 const styles = {
     card: css`
         margin-bottom: 2.5%
+    `,
+    tools: css`
+        margin-top: -15px;
     `
 
 }

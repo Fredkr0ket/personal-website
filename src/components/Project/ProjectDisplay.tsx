@@ -9,8 +9,8 @@ type project = {
     image: string
 }
 const ProjectDisplay = () => {
-    const projects1 = projectData.projectData.map(project => {
-        if (project.type == 1) {
+    const projects1 = projectData.projectData.map((project, index) => {
+        if (index % 2 == 0) {
             return (
                 <ProjectItems
                 title={project.title}
@@ -21,8 +21,8 @@ const ProjectDisplay = () => {
             )
         }
     })
-    const projects2 = projectData.projectData.map(project => {
-        if (project.type == 2) {
+    const projects2 = projectData.projectData.map((project, index) => {
+        if (index % 2 != 0) {
             return (
                 <ProjectItems
                 title={project.title}
@@ -50,12 +50,10 @@ const ProjectDisplay = () => {
 
 const styles = {
     root: css`
+        max-width: 90%;
         scroll-padding-top: 20px;
         margin-top: 100px;
         margin-bottom: auto;
-        margin-left: 5%;
-        width: 90%;
-        max-width: 90%;
         display: flex;
         flex-direction: column;
     `,
@@ -68,8 +66,6 @@ const styles = {
     projects: css`
         display: flex;
         flex-direction: row;
-        width:95%;
-        margin-left:2.5%;
     `,
     projectGrid1: css`
         max-width:49%;
