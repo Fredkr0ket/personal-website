@@ -33,6 +33,7 @@ const styles = {
         width: 100%;
         height:100px;
         background-color: transparent;
+        z-index: 1;
     `,
     iconBox: css`
         display: flex;

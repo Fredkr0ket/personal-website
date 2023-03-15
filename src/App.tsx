@@ -15,7 +15,6 @@ function App() {
       </div>
       <ScrollButton target="projects" display="Projecten"/>
       <ProjectDisplay />
-
     </div>
   )
 }
