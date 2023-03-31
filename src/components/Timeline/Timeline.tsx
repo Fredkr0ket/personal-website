@@ -1,13 +1,8 @@
 import { css } from "@emotion/css";
-import { left } from "@popperjs/core";
-import { Timeline } from "antd";
-import  timelineData from "../data/timeline.json"
 const TimelineDisplay = () => {
-
     return (
         <div id="projects" className={styles.root}>
-            <h1 className={styles.title}>Tijdlijn<br/></h1>
-            <Timeline items={timelineData.items} mode={left} />
+            
         </div>
     )
 }

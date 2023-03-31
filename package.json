@@ -9,14 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.0.1",
-    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@types/lodash": "^4.14.191",
-    "antd": "^5.3.3",
     "framer-motion": "^10.1.0",
     "html-react-parser": "^3.0.15",
     "react": "^18.2.0",

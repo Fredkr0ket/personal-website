@@ -3,7 +3,7 @@ import Bio from './components/Bio'
 import ScrollButton from './components/Buttons/ScrollButton'
 import Header from './components/Header'
 import ProjectDisplay from './components/Project/ProjectDisplay'
-import TimelineDisplay from './components/Timeline'
+import TimelineDisplay from './components/Timeline/Timeline'
 
 function App() {
 
