@@ -1,14 +1,10 @@
 import { css } from "@emotion/css";
-import React from "react";
 import ProjectItems from "./ProjectItems";
 import  projectData from "../../data/projects.json"
-type project = {
-    title: string
-    body: string
-    tools: string[]
-    image: string
-}
+
+ 
 const ProjectDisplay = () => {
+
     const projects1 = projectData.projectData.map((project, index) => {
         if (index % 2 == 0) {
             return (
@@ -33,6 +29,7 @@ const ProjectDisplay = () => {
             )
         }
     })
+
     return (
         <div id="projects" className={styles.root}>
             <h1 className={styles.title}>Projecten<br/></h1>
@@ -56,6 +53,7 @@ const styles = {
         margin-bottom: auto;
         display: flex;
         flex-direction: column;
+        margin-bottom: 100px;
     `,
     title: css`
         font-family: rubiklight;

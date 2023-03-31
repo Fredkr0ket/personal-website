@@ -1,0 +1,10 @@
+{
+    "items" : [
+        {
+            "color": "gray",
+            "dot": "",
+            "label": "kaas",
+            "children": "kaas"
+        }
+    ]
+}

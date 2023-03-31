@@ -1,9 +1,9 @@
 import { css } from '@emotion/css'
-import React from 'react'
 import Bio from './components/Bio'
 import ScrollButton from './components/Buttons/ScrollButton'
 import Header from './components/Header'
 import ProjectDisplay from './components/Project/ProjectDisplay'
+import TimelineDisplay from './components/Timeline'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       </div>
       <ScrollButton target="projects" display="Projecten"/>
       <ProjectDisplay />
+      <TimelineDisplay />
     </div>
   )
 }
