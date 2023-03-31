@@ -13,6 +13,7 @@ const ProjectDisplay = () => {
                 body={project.body}
                 tools={project.tools}
                 image={project.img}
+                href={project.href}
                 />
             )
         }
@@ -25,6 +26,7 @@ const ProjectDisplay = () => {
                 body={project.body}
                 tools={project.tools}
                 image={project.img}
+                href={project.href}
                 />
             )
         }
