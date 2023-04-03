@@ -1,29 +1,36 @@
 import { css } from "@emotion/css";
-const TimelineDisplay = () => {
-    return (
-        <div id="projects" className={styles.root}>
-            
-        </div>
-    )
+import React from 'react';
+import timeline from '../../data/timeline.json';
+import TimelineItem from './TimelineItem';
+
+function Timeline() {
+   return (
+      <div className="flex flex-col md:flex-row justify-center my-20">
+         <div className="w-full md:w-7/12">
+            <h1>Timeline</h1>
+            {timeline.items.map(item => (
+               <TimelineItem
+                  year={item.year}
+                  title={item.title}
+                  duration={item.duration}
+                  details={item.details}
+               />
+            ))}
+         </div>
+      </div>
+   )
 }
 
-const styles = {
-    root: css`
-        max-width: 90%;
-        width:90%;
-        scroll-padding-top: 20px;
-        margin-top: 100px;
-        margin-bottom: auto;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    `,
-    title: css`
-        font-family: rubiklight;
-        font-size: 60px;
-        padding-left: 5px;
-        padding-bottom: 20px;
-    `
-}
+export default Timeline;
 
-export default TimelineDisplay
+// root: css`
+// max-width: 90%;
+// width:90%;
+// display: flex;
+// flex-direction: row;
+// justify-content: center;
+
+// `,
+// timeline: css`
+// width: 100%;
+// `

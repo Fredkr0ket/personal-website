@@ -1,10 +1,11 @@
 {
     "items" : [
         {
-            "color": "gray",
-            "dot": "",
-            "label": "kaas",
-            "children": "kaas"
-        }
+            "year": "today",
+            "title": "kaasislekker",
+            "duration": "6 jaar",
+            "details": 
+               "My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me."
+         }
     ]
 }

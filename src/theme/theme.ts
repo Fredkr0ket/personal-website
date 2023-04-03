@@ -8,11 +8,6 @@ const config: ThemeConfig = {
   useSystemColorMode: true,
 }
 
-const colorTheme ={
-  backgroundColor: backgroundColor
-}
-
-
 const theme = extendTheme({ config })
 
 export default theme
