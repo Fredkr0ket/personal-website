@@ -1,7 +1,8 @@
 import React from "react";
 import { css } from "@emotion/css";
 import "../../assets/fonts/rubik/stylesheet.css"
-import { useColorModeValue } from "@chakra-ui/react";
+import { Icon, useColorModeValue } from "@chakra-ui/react";
+import { ArrowDownIcon } from "@chakra-ui/icons";
 
 interface Props {
     target: string
@@ -29,6 +30,7 @@ const ScrollButton: React.FC<Props> = ({target, display}) => {
     return (
         <a className={styles.root} href={`#${target}`}>
             <p>{display}</p>
+            <ArrowDownIcon />
         </a>
     )
 }

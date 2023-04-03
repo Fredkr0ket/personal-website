@@ -50,7 +50,6 @@ const ProjectDisplay = () => {
 const styles = {
     root: css`
         max-width: 90%;
-        scroll-padding-top: 20px;
         margin-top: 100px;
         margin-bottom: auto;
         display: flex;
