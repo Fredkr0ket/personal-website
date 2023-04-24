@@ -20,6 +20,7 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image, href}) => {
                         <Img
                             src={image}
                             width="100%"
+                            rounded={5}
                         />
                         <CardHeader fontSize={30} fontFamily={"rubiklight"} fontWeight={"bold"} marginLeft={-5}>{title}</CardHeader>
                         <p className={styles.tools}>{tools}</p>
@@ -36,6 +37,7 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image, href}) => {
                 <Img
                     src={image}
                     width="100%"
+                    rounded={5}
                 />
                 <CardHeader fontSize={30} fontFamily={"rubiklight"} fontWeight={"bold"} marginLeft={-5}>{title}</CardHeader>
                 <p className={styles.tools}>{tools}</p>

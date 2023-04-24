@@ -1,29 +1,31 @@
 {
     "projectData" : [
         {
-            "img": "https://i.all3dp.com/wp-content/uploads/2020/09/08162548/ender-3-max-lead.jpg",
-            "title": "Ender 3 pro 3D Printer",
-            "tools": ["Fusion 360, ", "Linux, ", "Raspberry pi"],
-            "body": ""
+            "img": "/src/assets/game-api.png",
+            "title": "Game Api",
+            "tools": ["Python, ", "Fast API, ", "Swagger, ", "SQL"],
+            "body": "Een API die door mij is gemaakt voor de arcade machine die we moeten bouwen voor een school opdracht. Met deze API kun je Games, Scores en Gebruikers toevoegen, updaten en ophalen uit de database.",
+            "href": "https://github.com/The-Monkey-Maffia/arcade-api"
         },
         {
-            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
-            "title": "This website",
-            "tools": ["Fusion 360, ", "Linux, ", "Raspberry pi"],
-            "body": "I build this website in React using TypeScript and the Chakra ui library I build this website in React using TypeScript and the Chakra ui library I build this website in React using TypeScript and the Chakra ui library I build this website in React using TypeScript and the Chakra ui libraryvI build this website in React using TypeScript and the Chakra ui library",
+            "img": "/src/assets/numpad.png",
+            "title": "Zelf gedesigned numpad",
+            "tools": ["KiCad, ", "Fusion 360, ", "KMK (Python Firmware)" ],
+            "body": "Door middel van het programma KiCad heb ik mijn eigen printplaatje gedesigned voor een Numpad, als processor heb ik gekozen voor de Seeed XIAO omdat die erg klein is. Ik heb gekozen om als firmware KMK te gebruiken om dat het is geschrefen in Python waardoor ik de code goed kan begrijpen.",
+            "href": "https://github.com/Fredkr0ket/numpad"
+        },
+        {
+            "img": "https://content.hwigroup.net/images/products_500x300/211901/dell-wyse-d00d-909631-02l.jpg",
+            "title": "Home Server",
+            "tools": ["Linux, ", "Docker, ", "Nginx, ", "Dietpi"],
+            "body": "Thuis heb ik een een server gemaakt van een oude dell wyse mini computer. Alle services die op mijn server staan heb ik gecontainerised door middel van Docker. Een paar services die ik gebruik zijn: Nextcloud, Vaultwarden, OpenVPN. Deze website host ik ook op mijn Home Server"
+        },
+        {
+            "img": "/src/assets/personal-website-front-page.png",
+            "title": "Portfolio website",
+            "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM"],
+            "body": "Ik heb deze website gemaakt door middel van het Front-end framework React en gebruikt te maken van de Ui-Package Chakra-UI",
             "href": "https://github.com/Fredkr0ket/personal-website"
-        },
-        {
-            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
-            "title": "This website",
-            "tools": ["Fusion 360, ", "Linux, ", "Raspberry pi"],
-            "body": "I build this website in React using TypeScript and the Chakra ui library"
-        },
-        {
-            "img": "https://avatars.githubusercontent.com/u/101328024?v=4",
-            "title": "This website",
-            "tools": ["Fusion 360, ", "Linux, ", "Raspberry pi"],
-            "body": "I build this website in React using TypeScript and the Chakra ui library"
         }
     ]
 }
