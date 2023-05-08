@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className={styles.root}>
             <a href='/'>
-                <h1 className={styles.title}>Ferdo Van Balen</h1>
+                <h1 className={styles.title}>Ferdo Van Balen  (maker)</h1>
             </a>
             <div className={styles.iconBox}>
                 <LinkedinButton url={'https://www.linkedin.com/in/ferdo-van-balen-441879241/'} />
