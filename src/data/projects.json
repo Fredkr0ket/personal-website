@@ -29,7 +29,7 @@
             "body": "Van een oude Dell Wyse heb ik een homeserver gemaakt. Alle services die op mijn server staan heb ik gecontainerised door middel van Docker. Een paar services die ik gebruik zijn: Nextcloud, Vaultwarden, OpenVPN. Deze website host ik ook op mijn Home Server"
         },
         {
-            "img": "/src/assets/personal-website-front-page.png",
+            "img": "/src/assets/finished-website-frontpage.png",
             "title": "Portfolio website",
             "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM, ", "Docker"],
             "body": "Ik heb deze website gemaakt door middel van het Front-end framework React en gebruikt te maken van de Ui-Package Chakra-UI",
