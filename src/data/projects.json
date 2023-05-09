@@ -1,18 +1,26 @@
 {
     "projectData" : [
         {
-            "img": "/src/assets/game-api.png",
-            "title": "Game Api",
-            "tools": ["Python, ", "Fast API, ", "Swagger, ", "SQL"],
-            "body": "Een API die door mij is gemaakt voor de arcade machine die we moeten bouwen voor een school opdracht. Met deze API kun je Games, Scores en Gebruikers toevoegen, updaten en ophalen uit de database.",
-            "href": "https://github.com/The-Monkey-Maffia/arcade-api"
+            "img": "https://cdn.webshopapp.com/shops/314630/files/402472948/1652x1652x2/creality-creality-ender-3-s1.jpg",
+            "title": "3D-Printer",
+            "tools": ["Klipper, ", "Fusion360, ", "Linux, ", "G-Code"],
+            "body": "Na dat ik mijn 3D printer heb gekocht vond ik dat hij niet op hoog genoege qualiteit en snelheid kon printen, dus heb ik doormiddel van verschillende upgrades Bijv: Upgegrade Moederbord, Extruder en Hotend, een dual Z-axis leadsqrew en nieuwe/geavanceerdere Firmware mijn 3D printer sneller laten printen en op hogere qualiteit.",
+            "href": "https://github.com/Fredkr0ket/personal-website"
         },
+
         {
             "img": "/src/assets/numpad-pcb.png",
             "title": "Numpad",
             "tools": ["KiCad, ", "Fusion 360, ", "KMK (Python Firmware)" ],
             "body": "Door middel van het programma KiCad heb ik mijn eigen printplaatje gedesigned voor een Numpad, als processor heb ik gekozen voor de Seeed XIAO omdat die erg compact is. De firmware die ik ga gebruiken voor de numpad is KMKfw omdat het geprogrammeerd is in python. Waar ik Comfortabel in kan programmeren",
             "href": "https://github.com/Fredkr0ket/numpad"
+        },
+        {
+            "img": "/src/assets/game-api.png",
+            "title": "Game Api",
+            "tools": ["Python, ", "Fast API, ", "Swagger, ", "SQL"],
+            "body": "Een API die door mij is gemaakt voor de arcade machine die we moeten bouwen voor een school opdracht. Met deze API kun je Games, Scores en Gebruikers toevoegen, updaten en ophalen uit de database.",
+            "href": "https://github.com/The-Monkey-Maffia/arcade-api"
         },
         {
             "img": "https://content.hwigroup.net/images/products_500x300/211901/dell-wyse-d00d-909631-02l.jpg",
@@ -23,15 +31,8 @@
         {
             "img": "/src/assets/personal-website-front-page.png",
             "title": "Portfolio website",
-            "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM"],
+            "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM, ", "Docker"],
             "body": "Ik heb deze website gemaakt door middel van het Front-end framework React en gebruikt te maken van de Ui-Package Chakra-UI",
-            "href": "https://github.com/Fredkr0ket/personal-website"
-        },
-        {
-            "img": "https://cdn.webshopapp.com/shops/314630/files/402472948/1652x1652x2/creality-creality-ender-3-s1.jpg",
-            "title": "3D-Printer",
-            "tools": ["Klipper, ", "Fusion360, ", "Linux, ", "G-Code"],
-            "body": "Na dat ik mijn 3D printer heb gekocht vond ik dat hij niet op hoog genoege qualiteit en snelheid kon printen, dus heb ik doormiddel van verschillende upgrades Bijv: Upgegrade Moederbord, Extruder en Hotend, een dual Z-axis leadsqrew en nieuwe/geavanceerdere Firmware mijn 3D printer sneller laten printen en op hogere qualiteit.",
             "href": "https://github.com/Fredkr0ket/personal-website"
         }
     ]

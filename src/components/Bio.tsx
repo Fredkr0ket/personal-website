@@ -8,14 +8,14 @@ const Bio = () => {
             <div className={styles.textBox}>
                 <h1 className={styles.title}>Welkom</h1>
                 <p className={styles.text}>
-                    Ik ben Ferdo een enthousiaste en gemotiveerde programmeur. Ik focus mij vooral op het programeren van micro controllers en esp's en ik hou mij ook graag bezig met het programmeren van api's
+                    Ik ben Ferdo een enthousiaste en gemotiveerde programmeur. Die graag bezig is met het programmeren van MicroComputer's en ESP's en het designen van hardware
                 </p>
             </div>
             <Image
                 width="40%"
                 boxSize="350px"
                 borderRadius='full'
-                src="https://avatars.githubusercontent.com/u/101328024?v=4"
+                src="https://media.licdn.com/dms/image/D4E03AQEKsR7uhGwhtw/profile-displayphoto-shrink_800_800/0/1683647351892?e=1689206400&v=beta&t=wMqlPRIWUtnr_CtqFhdq5PH4_2U0ODllkQfdnF1N0lU"
                 alt="Ferdo van Balen"
             />
 
