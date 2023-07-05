@@ -8,14 +8,14 @@
         },
 
         {
-            "img": "/src/assets/numpad-pcb.png",
+            "img": "/src/img/numpad-pcb.png",
             "title": "Numpad",
             "tools": ["KiCad, ", "Fusion 360, ", "KMK (Python Firmware)" ],
             "body": "Door middel van het programma KiCad heb ik mijn eigen printplaatje gedesigned voor een Numpad, als processor heb ik gekozen voor de Seeed XIAO omdat die erg compact is. De firmware die ik ga gebruiken voor de numpad is KMKfw omdat het geprogrammeerd is in python. Waar ik Comfortabel in kan programmeren",
             "href": "https://github.com/Fredkr0ket/numpad"
         },
         {
-            "img": "/src/assets/game-api.png",
+            "img": "/src/img/game-api.png",
             "title": "Game Api",
             "tools": ["Python, ", "Fast API, ", "Swagger, ", "SQL"],
             "body": "Een API die door mij is gemaakt voor de arcade machine die we moeten bouwen voor een school opdracht. Met deze API kun je Games, Scores en Gebruikers toevoegen, updaten en ophalen uit de database.",
@@ -28,7 +28,7 @@
             "body": "Van een oude Dell Wyse heb ik een homeserver gemaakt. Alle services die op mijn server staan heb ik gecontainerised door middel van Docker. Een paar services die ik gebruik zijn: Nextcloud, Vaultwarden, OpenVPN. Deze website host ik ook op mijn Home Server"
         },
         {
-            "img": "/src/assets/finished-website-frontpage.png",
+            "img": "/src/img/finished-website-frontpage.png",
             "title": "Portfolio website",
             "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM, ", "Docker"],
             "body": "Ik heb deze website gemaakt door middel van het Front-end framework React en gebruikt te maken van de Ui-Package Chakra-UI",
