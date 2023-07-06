@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts", "src/data/projects.jsonc"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts", "src/data/projects.jsonc", "src/components/Project/ProjectItems.jsx", "src/components/Project/ProjectItems.jsx"],
   "exclude": ["node_modules", ".vscode"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

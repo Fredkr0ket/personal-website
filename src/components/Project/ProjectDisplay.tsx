@@ -4,7 +4,7 @@ import  projectData from "../../data/projects.json"
 
  
 const ProjectDisplay = () => {
-
+    console.log(projectData)
     const projects1 = projectData.projectData.map((project, index) => {
         if (index % 2 == 0) {
             return (
