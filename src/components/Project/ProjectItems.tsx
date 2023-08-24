@@ -49,6 +49,7 @@ const ProjectItems: React.FC<Props> = ({title, body, tools, image, href}) => {
 }
 
 const styles = {
+    
     card: css`
         margin-bottom: 2.5%
     `,

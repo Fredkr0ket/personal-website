@@ -11,11 +11,9 @@ const Bio = () => {
                     Ik ben Ferdo een enthousiaste en gemotiveerde programmeur. Die graag bezig is met het programmeren van MicroComputer's en ESP', het designen van hardware en diverse IoT projecten
                 </p>
             </div>
-            <Image
-                width="40%"
-                boxSize="350px"
-                borderRadius='full'
-                src="https://media.licdn.com/dms/image/D4E03AQEKsR7uhGwhtw/profile-displayphoto-shrink_800_800/0/1683647351892?e=1689206400&v=beta&t=wMqlPRIWUtnr_CtqFhdq5PH4_2U0ODllkQfdnF1N0lU"
+            <img
+                className={styles.img}
+                src="https://media.licdn.com/dms/image/D4E03AQEKsR7uhGwhtw/profile-displayphoto-shrink_800_800/0/1683647351892?e=1698278400&v=beta&t=_5JA3OmPS3aKke-0voT4wSNoKDW4zEyLMwb4wx67JAs"
                 alt="Ferdo van Balen"
             />
 
@@ -25,28 +23,83 @@ const Bio = () => {
 
 const styles = {
     root: css`
-        margin-left:5%;
-        width: 90%;
-        max-width: 90%;
-        display: flex;
+    /* Original styling for desktop */
+    margin-left: 5%;
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    @media (max-width: 1000px) {
+        /* Mobile-friendly styling */
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        margin-top: 50px;
-        margin-bottom: 50px;
-
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     `,
     textBox: css`
-        width:60%;
+        /* Original styling for desktop */
+        width: 60%;
         max-width: 60%;
+
+        @media (max-width: 1000px) {
+            /* Mobile-friendly styling */
+            width: 80%;
+            max-width: 80%;
+        }
     `,
     title: css`
+        /* Original styling for desktop */
         font-family: rubiklight;
         font-size: 60px;
+
+        @media (max-width: 1000px) {
+            /* Mobile-friendly styling */
+            font-size: 30px;
+        }
     `,
     text: css`
+        /* Original styling for desktop */
         font-family: rubiklight;
         font-size: 22px;
+        
+
+        @media (max-width: 1000px) {
+            /* Mobile-friendly styling */
+            font-size: 18px;
+            padding-bottom:20px;
+        }
+    `,
+    img: css`
+        width: 30%;
+        border-radius: 999px;
+        @media (max-width: 1400px) {
+            /* Mobile-friendly styling */
+            width:35%
+        }
+        @media (max-width: 1200px) {
+            /* Mobile-friendly styling */
+            width:40%
+        }
+        @media (max-width: 1000px) {
+            /* Mobile-friendly styling */
+            width:50%
+        }
+        @media (max-width: 800px) {
+            /* Mobile-friendly styling */
+            width:55%
+        }
+        @media (max-width: 600px) {
+            /* Mobile-friendly styling */
+            width:65%
+        }
     `
 }
 

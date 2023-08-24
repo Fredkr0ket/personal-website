@@ -26,7 +26,16 @@ const styles = {
     flex-direction: column;
     align-items: center;
     width: 60%;
-    margin-left: 20%;
+    margin: 0 auto;
+    @media (max-width: 850px) {
+      width:70%
+    }
+    @media (max-width: 600px) {
+      width:80%
+    }
+    @media (max-width: 420px) {
+      width:90%
+    }
   `,
   fontPage: css`
     display: flex;
