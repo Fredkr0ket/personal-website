@@ -4,34 +4,34 @@
             "img": "https://cdn.webshopapp.com/shops/314630/files/402472948/1652x1652x2/creality-creality-ender-3-s1.jpg",
             "title": "3D-Printer",
             "tools": ["Klipper, ", "Fusion360, ", "Linux, ", "G-Code"],
-            "body": "Na dat ik mijn 3D printer heb gekocht vond ik dat hij niet op hoog genoege kwaliteit en snelheid kon printen, dus heb ik doormiddel van verschillende upgrades Bijv: Upgegrade Moederbord, Extruder en Hotend, een dual Z-axis leadsqrew en nieuwe/geavanceerdere Firmware mijn 3D printer sneller laten printen en op hogere kwaliteit."
+            "body": "Nadat ik mijn 3D-printer had gekocht, merkte ik dat deze niet op de gewenste kwaliteit en snelheid kon printen. Daarom besloot ik verschillende upgrades uit te voeren, zoals het upgraden van het moederbord, de extruder en het hotend, het toevoegen van een dual Z-as leadscrew en het installeren van nieuwe en geavanceerdere firmware. Hierdoor kon ik mijn 3D-printer  sneller laten printen en tegelijkertijd de printkwaliteit verbeteren."
         },
 
         {
             "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/numpad-pcb.png?raw=true",
             "title": "Numpad",
             "tools": ["KiCad, ", "Fusion 360, ", "KMK (Python Firmware)" ],
-            "body": "Door middel van het programma KiCad heb ik mijn eigen printplaatje gedesigned voor een Numpad, als processor heb ik gekozen voor de Seeed XIAO omdat die erg compact is. De firmware die ik ga gebruiken voor de numpad is KMKfw omdat het geprogrammeerd is in python. Waar ik Comfortabel in kan programmeren",
+            "body": "Met behulp van het programma KiCad heb ik mijn eigen printplaat ontworpen voor een numeriek toetsenbord (Numpad). Als processor heb ik gekozen voor de Seeed XIAO vanwege zijn compacte formaat. Voor de firmware van het numpad heb ik besloten om KMKfw te gebruiken, omdat het in Python is geprogrammeerd en ik Python beter beheers dan andere programmeertalen.",
             "href": "https://github.com/Fredkr0ket/numpad"
         },
         {
             "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/game-api.png?raw=true",
             "title": "Game Api",
             "tools": ["Python, ", "Fast API, ", "Swagger, ", "SQL"],
-            "body": "Een API die door mij is gemaakt voor de arcade machine die we moeten bouwen voor een school opdracht. Met deze API kun je Games, Scores en Gebruikers toevoegen, updaten en ophalen uit de database.",
+            "body": "Ik heb een API gemaakt voor de arcade machine die we moeten bouwen als onderdeel van onze schoolopdracht. Met behulp van deze API kun je games, scores en gebruikers toevoegen, bijwerken en ophalen uit de database.",
             "href": "https://github.com/The-Monkey-Maffia/arcade-api"
         },
         {
             "img": "https://content.hwigroup.net/images/products_500x300/211901/dell-wyse-d00d-909631-02l.jpg",
             "title": "Home Server",
             "tools": ["Linux, ", "Docker, ", "Nginx, ", "Dietpi"],
-            "body": "Van een oude Dell Wyse heb ik een homeserver gemaakt. Alle services die op mijn server staan heb ik gecontainerised door middel van Docker. Een paar services die ik gebruik zijn: Nextcloud, Vaultwarden, OpenVPN. Deze website host ik ook op mijn Home Server"
+            "body": "Ik heb van een oude Dell Wyse een thuisserver gemaakt. Alle services die op mijn server draaien, heb ik gecontaineriseerd met behulp van Docker. Enkele van de services die ik gebruik, zijn Nextcloud, Vaultwarden en OpenVPN. Bovendien host ik ook deze website op mijn thuisserver."
         },
         {
             "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/finished-website-frontpage.png?raw=true",
             "title": "Portfolio website",
             "tools": ["React, ", "TypeScript, ", "Chakra-UI, ", "Emotion CSS, ", "Vite, ", "NPM, ", "Docker"],
-            "body": "Ik heb deze website gemaakt door middel van het Front-end framework React en gebruikt te maken van de Ui-Package Chakra-UI",
+            "body": "Ik heb deze website gemaakt met behulp van het front-end framework React en daarbij gebruik gemaakt van het UI-pakket Chakra-UI.",
             "href": "https://github.com/Fredkr0ket/personal-website"
         }
     ]
