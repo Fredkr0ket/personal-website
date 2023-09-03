@@ -8,7 +8,7 @@ const Bio = () => {
             <div className={styles.textBox}>
                 <h1 className={styles.title}>Welkom</h1>
                 <p className={styles.text}>
-                    Ik ben Ferdo een enthousiaste en gemotiveerde programmeur. Die graag bezig is met het programmeren van MicroComputer's en ESP', het designen van hardware en diverse IoT projecten
+                Ik ben Ferdo, een enthousiaste en gemotiveerde programmeur die graag bezig is met het programmeren van microcontrollers en ESP's, het ontwerpen van hardware en het uitvoeren van diverse IoT-projecten.
                 </p>
             </div>
             <img
