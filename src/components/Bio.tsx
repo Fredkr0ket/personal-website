@@ -13,7 +13,7 @@ const Bio = () => {
             </div>
             <img
                 className={styles.img}
-                src="https://media.licdn.com/dms/image/D4E03AQEKsR7uhGwhtw/profile-displayphoto-shrink_800_800/0/1683647351892?e=1698278400&v=beta&t=_5JA3OmPS3aKke-0voT4wSNoKDW4zEyLMwb4wx67JAs"
+                src="https://media.licdn.com/dms/image/D4E03AQEKsR7uhGwhtw/profile-displayphoto-shrink_200_200/0/1683647351892?e=1704931200&v=beta&t=sjAL7uolCPxiKRdWOR4nBkSnw-iya1L1v9HKKN6ia3Y"
                 alt="Ferdo van Balen"
             />
 
