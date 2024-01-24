@@ -1,6 +1,13 @@
 {
     "projectData" : [
         {
+            "img": "https://scontent.cdninstagram.com/v/t51.2885-15/329425523_732322001762592_5072239338655617399_n.jpg?stp=dst-jpg_e15&efg=e30&_nc_ht=scontent.cdninstagram.com&_nc_cat=100&_nc_ohc=cK22JV5vJUsAX9hpYiu&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfDwhsj_KX_1il4Vk3FSduTRgzTtO_f_-HWFDqMTm_f4eQ&oe=65B7224F&_nc_sid=10d13b",
+            "title": "Website Stichting Prinsmax",
+            "tools": ["Stripe, ","PHP, ", "Laravel"],
+            "body": "Vanuit de stichting Prinsmax hebben wij, als groep van 3 scholieren, de opdracht gekregen om een website te maken. Mijn taak bij het ontwikkelen van de website was het implementeren van het betalingssysteem. Hiervoor heb ik Stripe geïntegreerd, waardoor mensen eenvoudig kunnen doneren via iDeal op de website.",
+            "href": "https://stichtingprinsmax.nl"
+        },
+        {
             "img": "https://cdn.webshopapp.com/shops/314630/files/402472948/1652x1652x2/creality-creality-ender-3-s1.jpg",
             "title": "3D-Printer",
             "tools": ["Klipper, ", "Fusion360, ", "Linux, ", "G-Code"],
