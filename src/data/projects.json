@@ -11,7 +11,7 @@
             "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/stichting_prins_max.jpg?raw=true",
             "title": "Website Stichting Prinsmax",
             "tools": ["Stripe, ","PHP, ", "Laravel"],
-            "body": "Vanuit de stichting Prinsmax hebben wij als groep van 3 scholieren de opdracht gekregen om een website te maken. Mijn taak bij het ontwikkelen van de website was het implementeren van het betalingssysteem. Hiervoor heb ik Stripe geïntegreerd, waardoor mensen eenvoudig kunnen doneren via iDeal op de website.",
+            "body": "Vanuit de stichting Prinsmax hebben wij als groep van 3 scholieren de opdracht gekregen om een website te maken voor Stichting Prins Max. Mijn taak bij het ontwikkelen van de website was het implementeren van het betalingssysteem. Hiervoor heb ik Stripe geïntegreerd, waardoor mensen eenvoudig kunnen doneren via iDeal op de website.",
             "href": "https://stichtingprinsmax.nl"
         },
         {
@@ -39,7 +39,7 @@
             "img": "https://content.hwigroup.net/images/products_500x300/211901/dell-wyse-d00d-909631-02l.jpg",
             "title": "Home Server",
             "tools": ["Linux, ", "Docker, ", "Nginx, ", "Dietpi"],
-            "body": "Ik heb van een oude Dell Wyse een thuisserver gemaakt. Alle services die op mijn server draaien, heb ik gecontaineriseerd met behulp van Docker. Enkele van de services die ik gebruik, zijn Nextcloud, Vaultwarden en OpenVPN. Bovendien host ik ook deze website op mijn thuisserver."
+            "body": "Ik heb van een oude Dell Wyse een thuisserver gemaakt. Alle services die op mijn server draaien, heb ik gecontaineriseerd met behulp van Docker. Enkele van de services die ik gebruik, zijn Nextcloud en een VPN. Bovendien host ik ook deze website op mijn thuisserver."
         },
         {
             "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/finished-website-frontpage.png?raw=true",
