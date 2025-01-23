@@ -1,7 +1,14 @@
 {
     "projectData" : [
         {
-            "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/stichting-prinsmax.png?raw=true",
+            "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/memory_overflow_1.jpg?raw=true",
+            "title": "Memory Overflow",
+            "tools": ["ESP32, ","Arduino IDE, ", "Solidworks"],
+            "body": "Voor een schoolproject hebben drie medestudenten en ik de opdracht gekregen om een spel te ontwikkelen met verschillende elektronische componenten. We hebben onder andere een LCD-display gebruikt voor visuele feedback, reed-schakelaars om magneten te detecteren, knoppen voor gebruikersinvoer en LED's als indicatorlampjes. Voor de aansturing van al deze componenten maakten we gebruik van een ESP32, die we geprogrammeerd hebben in de Arduino-programmeertaal. De behuizing van het spel hebben we ontworpen in SolidWorks en vervolgens uitgeprint met een Prusa 3D-printer. De naam die we het spel hebben gegeven is Memory Overflow",
+            "href": "https://github.com/Fredkr0ket/memory-overflow-game"
+        },
+        {
+            "img": "https://github.com/Fredkr0ket/personal-website/blob/master/src/img/stichting_prins_max.jpg?raw=true",
             "title": "Website Stichting Prinsmax",
             "tools": ["Stripe, ","PHP, ", "Laravel"],
             "body": "Vanuit de stichting Prinsmax hebben wij als groep van 3 scholieren de opdracht gekregen om een website te maken. Mijn taak bij het ontwikkelen van de website was het implementeren van het betalingssysteem. Hiervoor heb ik Stripe geïntegreerd, waardoor mensen eenvoudig kunnen doneren via iDeal op de website.",
